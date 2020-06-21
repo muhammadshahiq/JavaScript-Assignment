@@ -331,6 +331,260 @@
 
 
 
+// var subject1 = alert(prompt('Enter your subject 1 name '));
+// var subject2 = alert(prompt('Enter your subject 2 name '));
+// var subject3 = alert(prompt('Enter your subject 3 name '));
+
+// var TotalMarks= 100;
+
+// var MarksObtained1=alert(prompt('Enter obtained marks in subject 1 '));
+// var MarksObtained2=alert(prompt('Enter obtained marks in subject 2 '));
+// var MarksObtained3=alert(prompt('Enter obtained marks in subject 3 '));
+
+// var percentage1=MarksObtained1/100*100; 
+// var percentage2=MarksObtained2/TotalMarks*100;
+// var percentage3=MarksObtained3/TotalMarks*100;
+
+//  var TotalMarksAll = TotalMarks+TotalMarks+TotalMarks;
+//  var MarksObtainedAll = MarksObtained1+MarksObtained2+MarksObtained3;
+//  var percentageAll = MarksObtainedAll/TotalMarksAll*100;
+//  document.write('SUBJECT'+'TotalMarks'+'MarksObtained'+'percentage'+'<br>');
+//  document.write(subject1+TotalMarks+MarksObtained1+percentage1);
+
+//  document.write('<table><tr><td>subject2</td><td>TotalMark</td><td>MarksObtained2</td><td>percentage2</td></tr></table>');
+//   document.write('<table><tr><td>subject3</td><td>TotalMarks</td><td>MarksObtained3</td><td>percentage3</td></tr></table>'); 
+//   document.write('<table><tr><td></td><td>TotalMarksAll</td><td>MarksObtainedAll</td><td>percentageAll</td></tr></table>');
+// ***********************************************************************
 
 
 
+//*********************chapter 9-11******************************* */
+
+//***********************************Task 1*********************** */
+
+// var city = prompt('Enter your city name')
+
+// if(city==='Karachi')
+// {
+//    alert('Welcome to city of lights')
+// }
+// else{
+//     alert('Welcome to your city')
+// }
+
+
+//********************************************************************** */
+
+
+//**************ASSIGNMENT NO: 06******************************* */
+
+//************* CHAPTER 21************************************* */
+
+//************* Task no 01 ************************************* */
+
+//  var FirstName= prompt('Enter your First Name')
+//  var LastName= prompt('Enter your Last Name')
+//  var  FullName =alert(FirstName+" "+LastName);
+
+
+
+//************* Task no 02 ************************************* */
+
+// var FavMobile = prompt("ENTER YOUR FAVOURITE MOBILE")
+// var IndxNum = FavMobile.length;
+// document.write("My favourite phone is:  "+FavMobile+'<br>')
+// document.write("Length of string is:   "+IndxNum)
+
+//************* Task no 03 ************************************* */
+
+// var Nationality ="Pakistani "
+// var Indx = Nationality.indexOf('n')
+
+// document.write('String : ' +Nationality+"<br>")
+// document.write('Index of n is : ' +Indx+"<br>")
+
+
+//************* Task no 04 ************************************* */
+
+//  var str1 ="Hello World"
+//  var Indx1 = str1.lastIndexOf('l') 
+
+//  document.write('String : ' +str1+"<br>")
+//  document.write('Index of l is : ' +Indx1 +"<br>")
+
+//************* Task no 05 ************************************* */
+
+
+//  var Nationality ="Pakistani "
+//  var Indx = Nationality.charAt(3)
+
+//  document.write('String : ' +Nationality+"<br>")
+//  document.write('Character at Index  3  is  : ' +Indx+"<br>")
+
+
+//************* Task no 06 ************************************* */
+
+//   var city ="Hyderabad "
+//   var Replcmnt = city.replace("Hyder","Islam")
+
+//   document.write('City : ' +city+"<br>")
+//   document.write('After replacement city is  : ' +Replcmnt+"<br>")
+
+
+//************* Task no 08 ************************************* */
+
+
+// var message1 = 'Ali and Sami are best friends They play cricket and football together';
+
+//    var Replcmnt = message1.replace(/and/g,"&")
+//    document.write('Message : ' +message1+"<br>")
+//    document.write('Message : ' +Replcmnt+"<br>")
+
+
+//************* Task no 09 ************************************* */
+
+// var str1="472"
+// document.write('Value : '+str1+'<br>')
+// document.write('Type :'+typeof(str1)+'<br>')
+// var type1=Number(str1);
+// document.write('Value : '+type1+'<br>')
+// document.write('Type : '+typeof(type1))
+
+
+//************* Task no 10 ************************************* */
+
+//  var word = prompt("Enter your word");
+//  document.write('User input : '+word+'<br>')
+//  Word1 = word.toUpperCase();
+//  document.write('Upper case : '+Word1+'<br>')
+
+
+//************* Task no 11 ************************************* */
+
+  // var word = prompt("Enter your word");
+  // document.write('User input : '+word+'<br>')
+  // var firstC = word.slice(0,1);
+  // var LastC  = word.slice(1);
+  // firstC = firstC.toUpperCase();
+  // LastC  = LastC.toLowerCase();
+  // var fullC  = firstC+LastC ;
+  // document.write('Tittle case : '+fullC+'<br>')
+  
+
+//************* Task no 12 ************************************* */
+
+// var num = 35.36;
+// document.write('Number  : '+num +'<br>')
+// var num1 = num.toString();
+// num1 = num1.replace('.','');
+// document.write('Result  : '+num1+'<br>')
+// document.write('Type :'+typeof(num1));
+
+
+//************* Task no 13 ************************************* */
+
+// var A =  ['cake', 'apple', 'pie', 'cookie', 'chipS','pattieS'];
+// var search = prompt('Welcome to Abc bakkery.What to want to order Sir/Maam ');
+// var A1 = search.toLowerCase();
+// //document.write(A1);
+
+
+//     if(A.indexOf(search) !==-1){
+//       alert(search  +' is available at index '+A[charAt(search) ] + ' in our bakkery' )
+
+//   } else{
+//     alert('we are sorry. ' +search +' is not available at our bakkery')
+//   }
+
+
+
+//************* Task no 14 ************************************* */
+
+// var word = 'University of karachi';
+// var split =word.split("");
+// document.write(split)
+
+
+//************* Task no 15 ************************************* */
+
+//  var input =prompt('Enter Your Input')
+//  document.write('User input : '+ input+'<br>')
+// var indx =input.charAt(input);
+// document.write('Last index is :'+ indx+'<br>')
+
+
+
+//************* Chapter no 26-30 ************************************* */
+
+
+
+//************* Task no 01 ************************************* */
+
+// var num = 3.45214;
+// document.write('Number ; '+num+'<br>')
+// var num1 =  Math.round(num);
+// document.write('Round ; '+num1+'<br>')
+// var num2 =  Math.floor(num);
+// document.write('Floor ; '+num2+'<br>')
+// var num3 =  Math.ceil(num);
+// document.write('Ceil ; '+num3+'<br>') 
+
+//************* Task no 02 ************************************* */
+
+// var num = +prompt('Enter a number')
+// document.write('Number ; '+num+'<br>')
+// var num1 =  Math.round(num);
+// document.write('Round ; '+num1+'<br>')
+// var num2 =  Math.floor(num);
+// document.write('Floor ; '+num2+'<br>')
+// var num3 =  Math.ceil(num);
+// document.write('Ceil ; '+num3+'<br>') 
+
+
+//************* Task no 03 ************************************* */
+
+
+//  var randomNumber = Math.random()*6;
+//  randomNumber = Math.ceil(randomNumber);
+// document.write('Random number is : '+randomNumber);
+
+
+//************* Task no 03 ************************************* */
+
+// var value = Math.random()*2;
+// value = Math.ceil(value);
+// if(value===1){
+//   document.write('Random coin value is : <b>HEAD</b>')
+// }
+// else{
+//   document.write('Random coin value is : <b>TAIL</b>')  
+// }
+
+//************* Task no 04 ************************************* */
+//   var randomNumber = Math.random()*100;
+//   randomNumber = Math.ceil(randomNumber);
+//  document.write('Random number between 1 to 100  : '+randomNumber);
+
+//************* Task no 05 ************************************* */
+
+// var weight = parseInt(prompt('enter your weight'));
+// document.write('The weight of user is :'+weight+ ' Kilograms');
+
+//************* Task no 06 ************************************* */
+
+// var value = Math.random()*10;
+// value = Math.ceil(value);
+// var input = prompt('Enter a number 1 to 10 ')
+// if(input <= 10){
+//   document.write('Congratulation you enter a right number')
+// }
+// else{
+//   document.write('you enter a wrong number')  
+// }
+
+
+//************* Chapter no 31 to 35 ************************************* */
+
+
+//************* Task no 01 ************************************* 
+//************************************************************************************************************ */
