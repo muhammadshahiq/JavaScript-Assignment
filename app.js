@@ -299,30 +299,29 @@
 
 //****************Task no 4***********************
 
-// var subject1 = alert(prompt('Enter your subject 1 name '));
-// var subject2 = alert(prompt('Enter your subject 2 name '));
-// var subject3 = alert(prompt('Enter your subject 3 name '));
+// var subject1 = prompt('Enter your subject 1 name ');
+// var subject2 = prompt('Enter your subject 2 name ');
+// var subject3 = prompt('Enter your subject 3 name ');
+
+// var MarksObtained1= +prompt('Enter obtained marks in subject 1 ');
+// var MarksObtained2= +prompt('Enter obtained marks in subject 2 ');
+// var MarksObtained3= +prompt('Enter obtained marks in subject 3 ');
 
 // var TotalMarks= 100;
 
-// var MarksObtained1=alert(prompt('Enter obtained marks in subject 1 '));
-// var MarksObtained2=alert(prompt('Enter obtained marks in subject 2 '));
-// var MarksObtained3=alert(prompt('Enter obtained marks in subject 3 '));
+// var percentage1=(MarksObtained1/TotalMarks)*100; 
+// var percentage2=(MarksObtained2/TotalMarks)*100;
+// var percentage3=(MarksObtained3/TotalMarks)*100;
 
-// var percentage1=MarksObtained1/TotalMarks*100; 
-// var percentage2=MarksObtained2/TotalMarks*100;
-// var percentage3=MarksObtained3/TotalMarks*100;
+// var TotalMarksAll = TotalMarks+TotalMarks+TotalMarks;
+// var MarksObtainedAll = MarksObtained1+MarksObtained2+MarksObtained3;
+// var percentageAll = (MarksObtainedAll/TotalMarksAll)*100;
 
-// var TotalMarksAll = TotalMarks*TotalMarks*TotalMarks;
-// var MarksObtainedAll = MarksObtained1*MarksObtained2*MarksObtained3;
-// var percentageAll = MarksObtainedAll/TotalMarksAll*100;
-
-// document.write('<table><tr><th>subject</th><th>TotalMarks</th><th>MarksObtained</th><th>percentage</th></tr>');
-// document.write('<tr>'+'<td>subject1</td>+<td>TotalMarks</td>+<td>MarksObtained1</td>+<td>percentage1</td>+</tr>'+'</table>');
-
-// document.write('<table><tr><td>subject2</td><td>TotalMark</td><td>MarksObtained2</td><td>percentage2</td></tr></table>');
-//  document.write('<table><tr><td>subject3</td><td>TotalMarks</td><td>MarksObtained3</td><td>percentage3</td></tr></table>'); 
-//  document.write('<table><tr><td></td><td>TotalMarksAll</td><td>MarksObtainedAll</td><td>percentageAll</td></tr></table>');
+// document.write('subject  '+'TotalMarks  '  +'MarksObtained  '  +'percentage  '+'<br>');
+// document.write( subject1 + "         "  +TotalMarks+ "      "  +MarksObtained1+ "       "  +  percentage1+'<br>');
+// document.write( subject2 + "  "  +TotalMarks+ "  "  +MarksObtained2+ "  "  +  percentage2+'<br>');
+// document.write( subject3 + "  "  +TotalMarks+ "  "  +MarksObtained3+ "  "  +  percentage3+'<br>'); 
+// document.write( + "         "  +TotalMarksAll+ "  "  +MarksObtainedAll+ "  "  +  percentageAll);
 
 
 
@@ -371,6 +370,517 @@
 // else{
 //     alert('Welcome to your city')
 // }
+
+
+//************* Task no 02 ************************************* */
+
+// var gender = prompt('Enter your gender')
+// if(gender=='Male'){
+//    alert('Good morning Sir')
+// }
+// else {
+//   alert('Good morning Maam')
+// }
+// ************* Task no 03 ************************************* */
+
+// var trafficSignal = prompt('Enter a color')
+
+// if(trafficSignal=='red'){
+//    alert('Must Stop')
+// }
+
+// else if(trafficSignal=='yellow'){
+//   alert('Ready to move')
+// }
+
+// else if(trafficSignal=='green'){
+//   alert('Move Now')
+// }
+// else {
+//   alert('Enter a wrong Input ')
+// }
+//************* Task no 04 ************************************* */
+
+// var carFuel = prompt('Enter your car remaining fuel')
+// if(carFuel<0.25){
+//    alert('Please refill the fuel in your car')
+// }
+// else {
+//   alert('You do not need to refill your car')
+// }
+
+//************* Task no 05 ************************************* */
+//a
+// var a = 4; 
+// if (++a === 5){ 
+//   alert("given condition for variable a is true");
+//  }
+
+ //b.
+//   var b = 82; 
+//  if (b++ === 83){
+//     alert("given condition for variable b is true");
+//    } 
+ 
+//c.
+//  var c = 12;
+//  if (c++ === 13){
+//     alert("condition 1 is true");
+//    }
+//     if (c === 13){
+//        alert("condition 2 is true");
+//        }
+//     if (++c < 14){ 
+//           alert("condition 3 is true");
+//          } 
+//     if(c === 14){
+//             alert("condition 4 is true");
+//            } 
+ 
+
+//d
+// var materialCost = 20000;
+// var laborCost = 2000; 
+// var totalCost = materialCost + laborCost; 
+// if (totalCost === laborCost + materialCost){ 
+//   alert("The cost equals"); 
+// } 
+ 
+// //e. 
+// if (true){ 
+//   alert("True"); 
+// } if (false)
+// { alert("False"); 
+// } 
+ 
+// //f. 
+// if("car" < "cat"){ 
+//   alert("car is smaller than cat"); 
+// } 
+ 
+//************* Task no 06 ************************************* */
+// document.write('<h1>MARK SHEET </h1>'+'<br>')
+// var MarksObtainedAll = prompt('Enter marks obtained in three subjects')
+// var TotalMarksAll    = prompt('Enter total marks obtained in three subjects')
+// var percentage = (MarksObtainedAll/TotalMarksAll) * 100
+// document.write("TOTAL MARKS :" + TotalMarksAll +'<br>')
+// document.write("MARKS OBTAINED :" + MarksObtainedAll +'<br>')
+// document.write("PERCENTAGE :" + percentage + "%" +'<br>')
+
+// if(percentage >= 80){
+//   document.write("GRADE :" + "A-ONE" +'<br>')
+//   document.write("REMARKS :" + "EXCELLENT"+'<br>')
+// }
+// else if(percentage >= 70){
+//   document.write("GRADE :" + "A"+'<br>')
+//   document.write("REMARKS :" + "GOOD"+'<br>')
+// }
+// else if(percentage >= 60){
+//   document.write("GRADE :" + "B"+'<br>')
+//   document.write("REMARKS :" + "YOU NEED TO BE IMPROVE"+'<br>')
+// }
+// else if(percentage < 60){
+//   document.write("GRADE :" + "FAIL"+'<br>')
+//   document.write("REMARKS :" + "SORRY"+'<br>')
+// }
+// else{
+//  alert("you enter a wrong numbers")
+// }
+
+
+
+
+//************* Task no 07 ************************************* */
+
+// var secretNumber = 7;
+// var guessNumber  =+prompt('Guess a secret number');
+// if(secretNumber==guessNumber){
+//   alert('“Bingo! Correct answer” ')
+// }
+// else if(guessNumber>+secretNumber || guessNumber<-secretNumber){
+//   alert('“Close enough to the correct answer”')
+// }
+// else{
+//  alert('Sorry Wrong Answer')
+// }
+
+//************* Task no 08 ************************************* */
+
+// var number = 18;
+
+// for( i=number ; i<=30 ; i/3){
+//    console.log(i);
+//    break;
+ 
+
+
+
+
+//************* Task no 09 ************************************* */
+
+// function findOddEven(){
+//   //get the input value
+//   var num = document.getElementById('num').value;
+
+//   //if the remainder value is 0 then it is an even number
+//   //we are using % modulus operator to get the remainder value
+//   if ( num % 2 == 0) {
+//       document.getElementById('result').innerHTML = num + ' is an Even number';
+//   }else{
+//       document.getElementById('result').innerHTML = num + ' is an Odd number';
+//   }
+// }        
+
+
+//************* Task no 10 ************************************* */
+
+// var T = prompt('Enter temperature');
+
+// if(T>40){
+//   alert('“It is too hot outside”')
+// }
+// else 
+// if(T>30){
+//   alert(' “The Weather today is Normal” ')
+// }
+// else
+
+// if(T>20){
+//   alert(' “Today’s Weather is cool”')
+// }
+// else 
+// if(T>10){
+//   alert(' “OMG! Today’s weather is so Cool”')
+// }
+
+//************* Task no 11 ************************************* */
+
+// var firstNumber =+prompt('Enter a first number');
+// var secondNumber =+prompt('Enter a second number');
+// var operator = prompt('Enter a operator');
+
+// if(operator==='+'){
+//   alert(firstNumber + secondNumber)
+// }
+// else if(operator==='-'){
+//   alert(firstNumber - secondNumber)
+// }
+// else if(operator==='*'){
+//   alert(firstNumber * secondNumber)
+// }
+// else if(operator==='/'){
+//   alert(firstNumber / secondNumber)
+// }
+// else if(operator==='%'){
+//   alert(firstNumber % secondNumber)
+// }
+// else{
+//   alert('SORRY! "YOU ENTER WRONG OPERATOR"')
+// } 
+
+//************* CHAPTER 12-13 ************************************* */
+
+//************* Task no 01 ************************************* */
+
+//  var char  = prompt("Enter a character or string") 
+// char1 = char.charCodeAt();
+// console.log(char1);
+
+// if( char1 >= 65 & char1 <= 90){
+//       alert("UPPER CASE LETTER")
+// }
+// else
+// if( char1 >= 97 & char1 <= 122){
+//       alert("LOWER CASE LETTER")
+// }
+// else{
+//       alert("INPUT IS A NUMBER")
+//     }
+
+//************* Task no 02 ************************************* */
+
+// var int1 = +prompt('Enter a number1')
+// var int2 = +prompt('Enter a number2')
+
+// if(int1 > int2){
+//   alert(int1 + " is Greater than " + int2)
+// }
+// else if(int1 < int2){
+//   alert(int1 + " is Less than " + int2)
+// }
+// else{
+//   alert(int1 +" is equal to " + int2)
+// }
+
+//************* Task no 03 ************************************* */
+
+// var num = +prompt('Enter a number')
+
+// if(num < 0){
+//   alert('Number is Negative')
+// }
+// else
+// if(num > 0){
+//   alert('Number is Positive')
+// }
+// else{
+//   alert('Number is equal to zero')
+// }
+
+//************* Task no 04 ************************************* */
+
+// var arr = ["a","e","i","o","u"];
+// var char =+prompt('Enter a character')
+// for(i=arr[0] ; i<=arr.length ; i++){
+//   if(arr.indexOf(i) ===char){
+//     alert('Its is a vowel TRUE')
+//   }
+//   else{
+//     alert('Its a not a vowel FALSE')
+//   }
+// }
+
+
+
+//************* Task no 05 ************************************* */
+
+// var password = "shahiq123";
+// var password2 =prompt("Enter a password")
+// if(password === password2){
+//   alert(" “Correct! The password you entered matches the original password”")
+// }
+// else{
+//   alert('“Incorrect password”')
+// }
+
+
+//************* Task no 06 ************************************* */
+
+// var greeting; 
+// var hour = 13; 
+// if (hour < 18) { 
+//  alert( greeting = "Good day"); 
+//  } else{ 
+//  alert( greeting = "Good evening"); 
+// } 
+ 
+ 
+//************* Task no 07 ************************************* */
+
+// var time =+prompt('Enter a time')
+
+// if(time=='0'){
+//   alert('The Time Is 12:00 am')
+// }
+// else
+
+// if(time=='1'){
+//   alert('The Time Is 1:00 am')
+// }
+// else
+// if(time=='2'){
+//   alert('The Time Is 2:00 am')
+// }
+// else
+// if(time=='3'){
+//   alert('The Time Is 3:00 am')
+// }
+// else
+// if(time=='4'){
+//   alert('The Time Is 4:00 am')
+// }
+// else
+// if(time=='5'){
+//   alert('The Time Is 5:00 am')
+// }
+// else
+// if(time=='6'){
+//   alert('The Time Is 6:00 am')
+// }
+// else
+// if(time=='7'){
+//   alert('The Time Is 7:00 am')
+// }
+// else
+// if(time=='8'){
+//   alert('The Time Is 8:00 am')
+// }
+// else
+// if(time=='9'){
+//   alert('The Time Is 9:00 am')
+// }
+// else
+// if(time=='10'){
+//   alert('The Time Is 10:00 am')
+// }
+// else
+// if(time=='11'){
+//   alert('The Time Is 11:00 am')
+// }
+// else
+// if(time=='12'){
+//   alert('The Time Is 12:00 pm')
+// }
+// else
+// if(time=='13'){
+//   alert('The Time Is 1:00 pm')
+// }
+// else
+// if(time=='14'){
+//   alert('The Time Is 2:00 pm')
+// }
+// else
+// if(time=='15'){
+//   alert('The Time Is 3:00 pm')
+// }
+// else
+// if(time=='16'){
+//   alert('The Time Is 4:00 pm')
+// }
+// else
+// if(time=='17'){
+//   alert('The Time Is 5:00 pm')
+// }
+// else
+// if(time=='18'){
+//   alert('The Time Is 6:00 pm')
+// }
+// else
+// if(time=='19'){
+//   alert('The Time Is 7:00 pm')
+// }
+// else
+// if(time=='20'){
+//   alert('The Time Is 8:00 pm')
+// }
+// else
+// if(time=='21'){
+//   alert('The Time Is 9:00 pm')
+// }
+// else
+// if(time=='22'){
+//   alert('The Time Is 10:00 pm')
+// }
+// else
+// if(time=='23'){
+//   alert('The Time Is 11:00 pm')
+// }
+
+//************* Task no 07 ************************************* */
+
+// var time =1900;
+
+// if(time >= 0000 && time < 1200){
+//   alert('GOOD MORNING')
+// }
+// else
+// if(time >= 1200 && time < 1700){
+//   alert('GOOD AFTERNOON')
+// }
+// else
+// if(time >= 1700 && time < 2100){
+//   alert('GOOD EVENING')
+// }
+// else
+// if(time >= 2100 && time <= 2359){
+//   alert('GOOD EVENING')
+// }
+
+
+//************* CHAPTER 14-16************************************* */
+
+
+//************* Task no 01 ************************************* */
+
+// var studentName = [];
+
+
+// studentName[0]="ASIF";
+// console.log(studentName)
+
+// var string = ["asif","amir","arif"]
+
+// var number = [1,2,3,4];
+// console.log(number[1])
+
+// var boolean =["true","false"];
+
+// var mixedArray =["z",1,"rehan",5]
+
+
+ //document.write("<h1> QUALIFICATION </h1>");
+
+// var educationQualification =[ "SSC", "HSC", "BCS", "BS", "BCOM", "MS" ,"M.Phil" , "PhD" ]
+// for(i=educationQualification[0] ; i<=educationQualification.length ; i++)
+// {
+//   console.log( i + " <br>");
+// }
+//console.log(educationQualification[2])
+
+//************* Task no 02 ************************************* */
+
+// var studentName =["Michael","john","Tony"];
+// var studentMarks =[320,230,480];
+// var TotalMarks = 500;
+// var percentage1 = (studentMarks[0] / 500 ) * 100;
+// var percentage2 = (studentMarks[1] / 500 ) * 100;
+// var percentage3 = (studentMarks[2] / 500 ) * 100;
+// document.write("Score of "+ studentName[0] + " is "+studentMarks[0] +" . percentage is "+ percentage1 + "%"+"<br>");
+// document.write("Score of "+ studentName[1] + " is "+studentMarks[1] +" . percentage is "+ percentage2 + "%"+"<br>");
+// document.write("Score of "+ studentName[2] + " is "+studentMarks[2] +" . percentage is "+ percentage3 + "%"+"<br>");
+
+
+
+//************* Task no 03 ************************************* */
+
+// var color = ["blue","red","green"];
+// color[3]= "yellow";
+// color.pop;
+
+
+//************* Task no 01 ************************************* */
+
+
+//************* Task no 01 ************************************* */
+
+
+//************* Task no 01 ************************************* */
+
+
+//************* Task no 01 ************************************* */
+
+
+//************* Task no 01 ************************************* */
+
+
+//************* Task no 01 ************************************* */
+
+
+//************* Task no 01 ************************************* */
+
+
+//************* Task no 01 ************************************* */
+
+
+//************* Task no 01 ************************************* */
+
+
+//************* Task no 01 ************************************* */
+
+
+//************* Task no 01 ************************************* */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //********************************************************************** */
@@ -585,6 +1095,308 @@
 
 //************* Chapter no 31 to 35 ************************************* */
 
+//************* Task no 01 ************************************* 
+
+//   var now = new Date();
+//  document.write(now+'<br>')
+//  var b = now.slice(4,7);
+// document.write(b)
+
+
+//************* Task no 02 ************************************* 
+
+
+
+//  var months=["Jan", "feb", "Mar", "Apr", "May", "Jun", "Jul","Aug", "Sep", "Oct", "Nov", "Dec"];
+//  var now = new Date();
+//  document.write(now+'<br>')
+//  var theMonth = now.getMonth();
+//  var Nod = months[theMonth];
+//  document.write("The Month is: "+Nod+'<br>')
+ 
+
+
+
+//************* Task no 03 ************************************* 
+
+// var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]; 
+// var now = new Date();
+// document.write(now+'<br>')
+// var a = now.getDay();
+// var Nod = dayNames[a];
+// document.write("Today is: "+Nod+'<br>')
+
+
+//************* Chapter no 39 to 42 ************************************* */
 
 //************* Task no 01 ************************************* 
+//  function power(a,b) {
+//   var a=2;
+//   var b=3;
+//   alert(a*a*a)
+// }
+// power();
+
+
+//************* Task no 02 ************************************* 
+
+// function Area(a,b,c) {
+//   var a=2;
+//   var b=3;
+//   var c=3;
+//   var S = a+b+c / 2 ;
+//   var area = S*(S-a)*(S-b)*(S-c) ; 
+//   alert(area)
+// }
+// Area();
+
+//************* Task no 03 ************************************* 
+
+// var studentMarks1 = prompt('Enter marks of First subject')
+// var studentMarks2 = prompt('Enter marks of second subject')
+// var studentMarks3 = prompt('Enter marks of third subject')
+
+// function mainFunc() {
+
+//   averageMarks();  
+  
+// }
+//   function averageMarks() {
+//        var average;
+//     var average= studentMarks1+studentMarks2+studentMarks3 / 3;
+//     document.write("Average Marks in 3 subjects is "+ average + " <br>")
+     
+//   }
+  
+  //  function percentage() {
+       
+  //  }
+
+
+
+//************* Task no 04 ************************************* 
+
+// function tellTime() { 
+  
+//      var now = new Date(); 
+//         var theHr = now.getHours(); 
+//           var theMin = now.getMinutes(); 
+//             alert("Current time: "+ theHr + ":" + theMin); 
+//            }
+//  tellTime();
+
+
+//************* Task no 05 ************************************* 
+
+// function del() {
+// var text = "MathematicsfuntionalityJavascript"
+// var delt =text.replace(/a/g , "");
+// var delt2=delt.replace( /e/g,"");
+// var delt3=delt2.replace( /i/g,"");
+//  var delt4=delt3.replace( /o/g,"");
+// var delt5=delt4.replace( /u/g,"");
+// console.log(delt5);
+// }
+// del();
+
+//************* Task no 06 ************************************* 
+
+// var text ="“Pleases read this application and give me gratuity” Such occurrences are ea, ea, ui";
+//  switch (text) {
+//    case   : 
+
+   
+//      break;
+ 
+//    default:
+//      break;
+//  }
+
+ 
+
+ 
+
+//************* Chapter no 43 to 48 ************************************* */
+
+//************* Task no 01 ************************************* 
+// function link() {
+//   var a =document.getElementById('link1')
+//   a.alert(a)
+// }
+
+ 
+// function img() {
+ 
+// var img =document.getElementById("img1");
+// var img2 =document.getElementById("img2");
+// var img3 =document.getElementById("img3");
+// var img4 =document.getElementById("img4");
+// alert("Thanks for purchasing phone for us") 
+// }
+
+//************* Task no 02 ************************************* 
+
+// function caro() {
+ 
+// var car = document.getElementById("car1") 
+// }
+
+// <img id="c1" onmouseover="src='https:images.pexels.com/photos/2834653/pexels-photo-2834653.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'" onmouseout='src="https:media.gettyimages.com/photos/sports-car-picture-id147557453?s=612x612"' src="https:media.gettyimages.com/photos/sports-car-picture-id147557453?s=612x612"  alt="car pic" width="50%" height="400px">
+
+
+//************* Task no 03 ************************************* 
+
+// var count = 0;
+// var inc1=document.getElementById("inc");
+
+ 
+// function increase() {
+//   inc1.innerHTML=count+1;
+//   ++count; 
+// }
+
+// function decrease() {
+//   inc1.innerHTML=count-1;
+//   --count;
+// }
+
+//************* Task no 04 ************************************* 
+// function deleteRow(btn) {
+//   var row = btn.parentNode.parentNode;
+//   row.parentNode.removeChild(row);
+// }
+
+
+
+
+
+//********************************************** */
+// function deleteRow(r) {
+//   var i = r.parentNode.parentNode.rowIndex;
+//   document.getElementById("myTable").deleteRow(i);
+// }
+
+// function myCreateFunction() {
+//   var table = document.getElementById("myTable");
+//   var row = table.insertRow(0);
+//   var cell1 = row.insertCell(0);
+//   var cell2 = row.insertCell(1);
+//   cell1.innerHTML = "NEW CELL1";
+//   cell2.innerHTML = "NEW CELL2";
+// }
+
+// function myDeleteFunction() {
+//   document.getElementById("myTable").deleteRow(0);
+// }
+
+
+//************* Chapter 49 to 52 */
+//************* Task no 01 ************************************* 
+
+
+// function sub() {
+  
+// var email=document.getElementById('email')
+// email=email.value;
+// console.log(email)
+//   var pass=document.getElementById('pass')
+//   pass=pass.value;
+//   console.log(pass)
+//   var submit =document.getElementById('sub')
+//   submit.disabled=true;
+// }
+// function login() {
+  
+//  var login =document.getElementById("log")
+//   email.value="";
+//   pass.value="";
+//   var submit =document.getElementById('sub')
+//   submit.disabled=false;
+
+// }  
+
+//************* Task no 02 ************************************* 
+
+// function readMore() {
+ 
+// var text ="Organisational Behaviour (OB) is the study of human behaviour in an organisation. It is a multidisciplinary field devoted to the understanding individual and group behaviour, interpersonal processes and organisational dynamics. OB is important to all management functions, roles and skills. Since organisations are built up levels - individual, group and an organizational system as a whole, it is important for managers to understand human behaviour in order to meet the organizations overall goals. I found several key learning areas that are meaningful, interesting and relevant to my work over the course of studying this unit. These key learning areas have not only expanded and improved my view of organisational behaviour";
+// var pera =document.getElementById("pera");
+// pera.innerHTML=text;
+ 
+// }
+
+
+
+// //************* Task no 03 ************************************* 
+
+// function deleteRow(btn) {
+//   var row = btn.parentNode.parentNode;
+//   row.parentNode.removeChild(row);
+// }
+// function addRow(btn) {
+//   var row =btn.parentNode.parentNode;
+//   row.parentNode.  (row);
+  
+// }
+//************* Chapter 52 to 57 */
+//************* Task no 01 ************************************* 
+
+
+// function showImage(e) {
+//    var modalImage =document.getElementById("modalImage");
+//    modalImage.src=e.src;  
+// }
+
+
+
+
+
+
+
+
+//************* Chapter 58 to 67 */
+//************* Task no 01 ************************************* 
+
+// var main = document.getElementById('main-content');
+// //console.log(main.parentNode.childNodes[5])
+// var mainContent =main.parentNode.childNodes[5];
+// //console.log(mainContent);
+
+// console.log(mainContent.childNodes)
+// console.log(mainContent.childNodes[1])
+// console.log(mainContent.childNodes[3])
+// console.log(mainContent.childNodes[5])
+// console.log(mainContent.childNodes[7])
+// console.log(mainContent.childNodes[9])
+
+// var FirstName = document.getElementById('first-name')
+// var firstInput =FirstName.parentNode.childNodes[3];
+// var firstText = document.createTextNode("Muhammad Shahiq");
+// firstInput.appendChild(firstText)
+// firstInput.value ="Muhammad Shahiq"
+
+
+
+// var FirstName2 = document.getElementById('last-name')
+// var firstInput2 =FirstName2.parentNode.childNodes[7];
+// var firstText2 = document.createTextNode("Furqan");
+// firstInput2.appendChild(firstText2)
+// firstInput2.value ="furqan"
+
+
+// var FirstName3 = document.getElementById('email')
+// var firstInput3 =FirstName3.parentNode.childNodes[12];
+// var firstText3 = document.createTextNode("shahiqfurqan1998@gmail.com");
+// firstInput3.appendChild(firstText3)
+// firstInput3.value ="shahiqfurqan1998@gmail.com"
+
+
+
+
+
+
+
+
+
+
 //************************************************************************************************************ */

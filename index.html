@@ -4,37 +4,298 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+
+  <div id="CounterVisitor">
+  </div>
+  <script>
+  var n = localStorage.getItem('on_load_counter');
+  
+  if (n === null) {
+    n = 0;
+  }
+  n++;
+  
+  localStorage.setItem("on_load_counter", n);
+  
+  nums = n.toString().split('').map(Number);
+  document.getElementById('CounterVisitor').innerHTML = '';
+  for (var i of nums) {
+    document.getElementById('CounterVisitor').innerHTML += '<span class="counter-item">' + i + '</span>';
+  }
+  
+  </script>
+  
+      
     <!-- <script>
     document.write('Yah! I can write HTML content through JavaScript');
     </script> -->
-    
-<div id="CounterVisitor">
+<!-- <h1 style="color: blue;" > Mobile Phone Lookup </h1>
+<div>
+<img width="100px" height="150px" id="img1" onclick="img()" src="https://www.whatmobile.com.pk/admin/images/Samsung/SamsungGalaxyA31-b.jpg" alt="" >  
+
+<img id="img2"  onclick="img()" src="https://www.whatmobile.com.pk/admin/images/Xiaomi/XiaomiRedmiNote9Pro-b.jpg" alt="" width="100px" height="150px" >
+
+<img id="img3" onclick="img()" src="https://www.whatmobile.com.pk/admin/images/Xiaomi/XiaomiRedmiNote8-b.jpg" alt="" width="100px" height="150px" >
+
+<img id="img4" onclick="img()" src="https://www.whatmobile.com.pk/admin/images/Xiaomi/XiaomiMi10-b.jpg" alt="" width="100px" height="150px" >
 </div>
 
-<script>
-var n = localStorage.getItem('on_load_counter');
-
-if (n === null) {
-  n = 0;
-}
-n++;
-
-localStorage.setItem("on_load_counter", n);
-
-nums = n.toString().split('').map(Number);
-document.getElementById('CounterVisitor').innerHTML = '';
-for (var i of nums) {
-  document.getElementById('CounterVisitor').innerHTML += '<span class="counter-item">' + i + '</span>';
-}
-
-</script>
-    
+<a id="link1" onclick="link()"   href="www.mobilephones.com"></a>
+ -->
 
 
-<script type="text/javascript" src="app.js"> </script>
+
+<!-- chapter 43 to 48 task 3 
+  
+  <img id="c1" onmouseover="src='https:images.pexels.com/photos/2834653/pexels-photo-2834653.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'" onmouseout='src="https:media.gettyimages.com/photos/sports-car-picture-id147557453?s=612x612"' src="https:media.gettyimages.com/photos/sports-car-picture-id147557453?s=612x612"  alt="car pic" width="50%" height="400px">
+ -->
+
+
+ <!-- chapter 43 to 48 task 3 
+ 
+ <h2 id="inc" >0</h2>
+<button  onclick="increase()">Increase</button>
+
+
+<button  onclick="decrease()">Decrease</button> -->
+
+<!-- chapter 43 to 48 task 5 --> 
+
+  <!-- <table id="myTable">
+  <tbody>
+    <tr>
+      <th>index</th>
+      <th>Name</th>
+      <th>Class</th>
+    </tr>
+    <tr>
+      <td >0</td>
+      <td>Amir</td>
+      <td>9th</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"/></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>asif</td>
+      <td>9th</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"/></td>
+    </tr>
+
+    <tr>
+      <td>2</td>
+      <td>Amir</td>
+      <td>9th</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"/></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>rehan</td>
+      <td>10th</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"/></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>ebad</td>
+      <td>11th</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"/></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>aqib</td>
+      <td>8th</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"/></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>basit</td>
+      <td>6th</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"/></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>shahiq</td>
+      <td>9th</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"/></td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>hussain</td>
+      <td>3rd</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"/></td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>mahroof</td>
+      <td>5th</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"/></td>
+    </tr>
+    <tr>
+      <td >10</td>
+      <td>rizwan</td>
+      <td>9th</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"/></td>
+    </tr>
+  </tbody>
+</table>​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ -->
+
+<!-- chapter 49 to 52 task 1 --> 
+<!-- 
+<div style="background-color: crimson;"  align="center">
+<h1>Sign Up</h1>
+<input id="email" type="email" placeholder="Enter your email"><br><br>
+<input id="pass" type="password"  placeholder="password">
+<br><br>
+<button id="sub" onclick="sub()" >Login</button>
+<button id="log" onclick="login()">Sign up </button>
+</div>
+ -->
+
+
+<!-- chapter 49 to 52 task 2 --> 
+<!-- 
+<h1 align="center">ESSAY</h1>
+<h2 align="center">Organizational Behaviour</h2>
+<p id="pera">Organisational Behaviour (OB) is the study of human behaviour in an organisation. It is a multidisciplinary field devoted to the understanding individual and group behaviour, interpersonal processes and organisational dynamics. OB is important to all management functions, roles and skills. <a href="javascript:void(0);" onclick="readMore()" >Show more content </a></p> -->
+
+
+
+
+
+<!-- chapter 49 to 52 task 3 --> 
+
+
+  <!-- <table id="myTable">
+  <tbody>
+    <tr>
+      <th>index</th>
+      <th>Name</th>
+      <th>Class</th>
+    </tr>
+    <tr>
+      <td >0</td>
+      <td>Amir</td>
+      <td>9th</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"/></td>
+      <td><input type="button" value="Add" onclick="addRow(this)"></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>asif</td>
+      <td>9th</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"/></td>
+    </tr>
+
+    <tr>
+      <td>2</td>
+      <td>Amir</td>
+      <td>9th</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"/></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>rehan</td>
+      <td>10th</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"/></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>ebad</td>
+      <td>11th</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"/></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>aqib</td>
+      <td>8th</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"/></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>basit</td>
+      <td>6th</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"/></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>shahiq</td>
+      <td>9th</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"/></td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>hussain</td>
+      <td>3rd</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"/></td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>mahroof</td>
+      <td>5th</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"/></td>
+    </tr>
+    <tr>
+      <td >10</td>
+      <td>rizwan</td>
+      <td>9th</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"/></td>
+    </tr>
+  </tbody>
+</table>​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+ -->
+
+
+<!-- chapter 52 to 57******************** -->
+<!-- <div class="col">
+<div >
+  <img onclick="showImage(this)" src="https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" width="200" height="150">
+  <img onclick="showImage(this)" src="https://i.pinimg.com/736x/55/3c/50/553c50be9b34f7c4d04fb2445091a280.jpg" alt="" width="200" height="150">
+  <img onclick="showImage(this)" src="https://images.unsplash.com/photo-1431440869543-efaf3388c585?ixlib=rb-1.2.1&w=1000&q=80" alt="" width="200" height="150">
+  <img onclick="showImage(this)" src="https://www.designyourway.net/blog/wp-content/uploads/2018/01/3d-Desktop-Backgrounds.jpg" alt="" width="200" height="150">
+  <img onclick="showImage(this)" src="https://wonderfulengineering.com/wp-content/uploads/2016/01/Desktop-Wallpaper-4.jpg" alt="" width="200" height="150">
+  <img onclick="showImage(this)" src="https://eskipaper.com/images/desktop-wallpapers-1.jpg" alt="" width="200" height="150">
+
+</div>
+<div class="bg bgdisplay" >
+  <img class="display" align="center" id="modalImage" src="" alt="" width="200" height="150">
+
+</div>
+
+</div> -->
+
+<!-- chapter 58 to 67******************** -->
+
+ <div> 
+  <h1> DOM </h1> 
+  <div id="form-content" class="content"> 
+  <label for="first-name">First Name</label> 
+  <input type="text" id="first-name" /> 
+  <label for="last-name">Last Name</label> 
+  <input type="text" id="last-name" /><br>
+  <label for="email">Email</label> 
+  <input type="text" id="email" /> 
+</div> 
+ <div id="main-content" class="content"> 
+  <p class="render"> First Name : Alex</p> 
+  <p class="render" id="lastName">Last Name: Bank</p> 
+  <p class="render"> Email : alexbank@example.com</p> 
+  <p class="render"> Country : Pakistan </p> 
+  <p class="render"> contact : +92 300 1234567</p>
+ </div> 
+</div>
+
+
+
+
+
+
+
+
+
+
 </body>
+<script type="text/javascript" src="app.js"> </script>
 </html>
